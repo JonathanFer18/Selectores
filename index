@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia y Selectores CSS</title>
+    <style>
+        /* Selectores básicos */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Selector por etiqueta */
+        h1 {
+            color: #2c3e50;
+        }
+
+        /* Selector de clase */
+        .highlight {
+            background-color: #f39c12;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* Selector por ID */
+        #intro {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Selector de atributo */
+        a[href] {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a[href]:hover {
+            text-decoration: underline;
+        }
+
+        /* Selector de descendiente */
+        div p {
+            color: #34495e;
+        }
+
+        /* Selectores combinados */
+        p.highlighted {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Historia del Mundo</h1>
+
+    <p id="intro">A continuación, te ofrecemos un breve recorrido por algunos momentos claves de la historia.</p>
+
+    <div>
+        <h2>Prehistoria</h2>
+        <p>La <span class="highlight">prehistoria</span> es el período de la historia que abarca desde la aparición de los primeros seres humanos hasta la invención de la escritura. Para más información sobre este período, visita <a href="https://es.wikipedia.org/wiki/Prehistoria" target="_blank">Wikipedia</a>.</p>
+    </div>
+
+    <div>
+        <h2>Edad Antigua</h2>
+        <p class="highlighted">La Edad Antigua comienza con la invención de la escritura y abarca el desarrollo de las primeras civilizaciones. Los egipcios, los griegos y los romanos marcaron este período. Descubre más sobre la <a href="https://es.wikipedia.org/wiki/Edad_Antigua" target="_blank">Edad Antigua aquí</a>.</p>
+    </div>
+
+    <div>
+        <h2>Edad Media</h2>
+        <p>La <span class="highlight">Edad Media</span> fue una época de grandes cambios en Europa, caracterizada por el feudalismo y las cruzadas. Para saber más, visita <a href="https://es.wikipedia.org/wiki/Edad_Media" target="_blank">esta página</a>.</p>
+    </div>
+
+    <div>
+        <h2>Edad Moderna</h2>
+        <p>Con el <span class="highlight">Renacimiento</span> y los grandes descubrimientos, la Edad Moderna fue un periodo de renovación cultural y exploración. Puedes leer más en <a href="https://es.wikipedia.org/wiki/Edad_Moderna" target="_blank">este enlace</a>.</p>
+    </div>
+
+    <div>
+        <h2>Edad Contemporánea</h2>
+        <p>La <span class="highlight">Edad Contemporánea</span> abarca desde finales del siglo XVIII hasta nuestros días. En ella han tenido lugar eventos como las revoluciones industriales, las guerras mundiales y los avances tecnológicos actuales. <a href="https://es.wikipedia.org/wiki/Edad_Contempor%C3%A1nea" target="_blank">Descubre más</a>.</p>
+    </div>
+</body>
+</html>
